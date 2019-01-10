@@ -1,0 +1,170 @@
+@media only screen and (max-width: 1097px) {
+  .service-img-second {
+    width: 400px;
+  }
+
+  .service-img-first {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 989px) {
+  .article-text {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    margin: 0;
+    text-align: center;
+  }
+
+  .sidebar p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 989px) {
+  .header-block {
+    flex-direction: column;
+  }
+
+  .logo-slogan {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .day-tour p:before {
+    display: none;
+  }
+
+  .tour-info {
+    flex-direction: column;
+  }
+
+  .day-tour {
+    margin: 10px 0 0 0;
+  }
+
+  .day-tour h2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 865px) {
+  .service {
+    flex-direction: column;
+  }
+
+  .service-img-first {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .service-img-second {
+    width: 100%;
+    min-height: 100%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td.bold {
+    background: #777777;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  td:nth-of-type(1):before {
+    content: "";
+  }
+
+  td:nth-of-type(2):before {
+    content: "Хлорофилл a";
+    font-weight: 600;
+  }
+
+  td:nth-of-type(3):before {
+    content: "Хлорофилл b";
+    font-weight: 600;
+  }
+
+  td:nth-of-type(4):before {
+    content: "Хлорофилл c1";
+    font-weight: 600;
+  }
+
+  td:nth-of-type(5):before {
+    content: "Хлорофилл c2";
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 612px) {
+  .hotel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hotel-info h2 {
+    margin: 0;
+  }
+
+  .raiting {
+    width: 200px;
+  }
+
+  .services p {
+    margin: 0 10px 0 0;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .call a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 554px) {
+  .footer-item {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .raiting {
+    width: 100%;
+  }
+}
